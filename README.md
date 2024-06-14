@@ -3,20 +3,11 @@
   <a href="https://powir.slapbot.me">
     <img src="public/icon.ico" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Powir</h3>
+  <h3 align="center">Powird</h3>
   <p align="center">
-    Windows 10 based tool to monitor and analyze your system's power and battery usage
+    Windows 10 based tool to monitor and analyze your system's power and battery usage.
+    This fork is strictly for UI tweaking to personal taste.
     <br />
-    <a href="https://powir.slapbot.me"><strong>Explore the website »</strong></a>
-    <br />
-    <br />
-    <a href="https://join.slack.com/t/slapbotworkspace/shared_invite/zt-f1ywjyyq-6NT2jF23jjw5fS8oY5gAsQ">Join Slack</a>
-    ·
-    <a href="https://github.com/slapbot/powir/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/slapbot/powir/issues">Request Feature</a>
-    ·
-    <a href="https://twitter.com/ugupta41">Give Feedback</a>
   </p>
 </p>
 
@@ -27,7 +18,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* [About The Original Project](#about-the-original-project)
   * [What is it?](#what-is-it)
   * [Installation](#installation)
 * [Features](#features)
@@ -49,20 +40,20 @@
   * [Setup](#setup)
   * [Build](#build)
   * [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
-* [Contact](#contact)
 * [Acknowledgement](#acknowledgement)
 
 <hr>
 
-## About The Project
+## About The Original Project
 
 ### What is it?
 
 Powir is a Windows 10 based tool to monitor and analyze your system's power and battery usage.
 
 It provides you with various information and statistics about the current and overall history of the power and battery usage of your system.
+
+The point of this fork is to clean up the UI to look a little more professional.
 
 ### Installation
 
@@ -238,34 +229,18 @@ If you're looking to build it from the source or inspect the app, its extremely 
 - Any of the changes made for server requires the app to be restarted using: `npm run lite-mode`
 
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. 
-Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Feel free to join our slack chat group to get more help: [Slack](https://join.slack.com/t/powir/shared_invite/zt-ezy7sf5d-Tt1MmP_bcf_gdGLEJSEfzw)
-
+Intended for personal use, but feel free to drop me a line if you have a suggestion.
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPU General Public License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-## Contact
-
-Hey there! I'm [Ujjwal](https://twitter.com/ugupta41) who goes around with the name Slapbot in open source communities, You'd often find me blabbering my completely biased opinions in /r/soccer or busy building new things.
-
-I'm most accessible via Twitter and tend to update about whatever I'm working there, so feel free to follow or send a dm there. :)
-
+This fork maintains distribution under the GPU General Public License. See `LICENSE` for more information.
 
 ## Acknowledgement
 Many thanks to these amazing frameworks/libraries/tools/arts without which none of this had been possible! <3
+
+### Original Author
+- [Ujjwal](https://twitter.com/ugupta41) (for doing all the heavy lifting).
 
 #### Major Libraries
 - [ElectronJS](https://www.electronjs.org/)
