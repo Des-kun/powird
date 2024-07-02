@@ -5,7 +5,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Broadcast from "./components/Broadcast";
 
-defaults.global.defaultFontFamily = 'Neucha'
+defaults.global.defaultFontFamily = 'JetBrains Mono'
 
 
 function App() {

@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://powir.slapbot.me">
+  <a href="https://github.com/Des-kun">
     <img src="public/icon.ico" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Powird</h3>
@@ -64,8 +64,8 @@ The App is completely portable meaning you don't have to go through an installat
 and it can be copied from system to system seamlessly without any dependencies or extra files needed. **Recommended**
   - Terminal: Simply download the binary and run it:
   ```bash
-  curl -L https://github.com/SlapBot/powir/releases/download/v1.0.4/powir.1.0.4.exe --output powir.exe
-  ./powir
+  curl -L https://github.com/Des-kun/powird/releases/download/v1.0.5/powird.1.0.5.exe --output powird.exe
+  ./powird
   ```
   - Double Click: Again [download](#desktop-app-main-mode) the binary and run it but please read this [note](#browser-and-windows-defender-warnings)
 
@@ -120,22 +120,20 @@ and it can be copied from system to system seamlessly without any dependencies o
 
 ### Desktop App (Main Mode)
 
-- Simply go to [Releases](https://github.com/SlapBot/powir/releases) and pick the latest version to download.
-- Download Current Latest Version (Powir v1): [Github](https://github.com/SlapBot/powir/releases/latest/download/powir.1.0.4.exe) or [GDrive](https://drive.google.com/drive/folders/1ntEjEenEzZXMP8L_nXNoHnIFqNSLpwD9): **Please take a note below before downloading the app**
+- Simply go to [Releases](https://github.com/Des-kun/powird/releases) and pick the latest version to download.
+- Download Current Latest Version (Powir v1): [Github](https://github.com/Des-kun/powird/releases/latest/download/powird.1.0.5.exe): **Please take a note below before downloading the app**
 
 #### Browser And Windows Defender Warnings
 
 <strong>Note: </strong>
-Since the application isn't code signed yet ([because all of the certificates require annual fee payment regardless of whether you're non-profit or open-source](https://stackoverflow.com/questions/1177552/code-signing-certificate-for-open-source-projects)). Please refer to the issue: [#1](https://github.com/SlapBot/powir/issues/1), Both (Browser & Windows Defender will raise warnings suggesting that app is not protected). 
+Since the application isn't code signed yet ([because all of the certificates require annual fee payment regardless of whether you're non-profit or open-source](https://stackoverflow.com/questions/1177552/code-signing-certificate-for-open-source-projects)). Both Browser & Windows Defender will raise warnings suggesting that app is not protected).
 
 This doesn't mean that application 
 is inherently unsafe <strong>in fact entire source code is open</strong>, and you can build your own distribution following [Build](#build) section but its due to the paperwork and money involved in getting the certificates to sign the applications [which can cost as much as $699 a year or more](https://stackoverflow.com/a/58559506/6303162).
 
-If you are someone who has an experience around self signing certificates with Windows based builds which result in bypassing these warnings, kindly reply in the given thread [#1](https://github.com/SlapBot/powir/issues/1) :)
-
 #### Solution
 
-For now the solution is to simply ignore the warnings as shown below and always download the application from this [repository](https://github.com/SlapBot/powir) only: 
+For now the solution is to simply ignore the warnings as shown below and always download the application from this [repository](https://github.com/Des-kun/powird) only:
 
 ![](demos/processed-screenshots/browser-warning.png)
 ![](demos/gifs/windows-defender-warnings.gif)
@@ -150,7 +148,7 @@ Open up the terminal (for non-developers: that is Command Prompt [cmd.exe]) and 
 
 Commands (copy-paste):
 ```bash
-git clone https://github.com/SlapBot/powir.git
+git clone https://github.com/Des-kun/powird.git
 cd powir
 npm install --production
 ```
@@ -202,8 +200,9 @@ If you're looking to build it from the source or inspect the app, its extremely 
 
 ### Setup
 
-- Clone the repository: `git clone https://github.com/SlapBot/powir.git`
-- Cd into the directory: `cd powir` and run: `npm install`
+- Clone the repository: `git clone https://github.com/Des-kun/powird.git`
+- Cd into the directory: `cd powir` and delete `package-lock.json`.
+- Run: `npm install`
 
 ### Build
 
